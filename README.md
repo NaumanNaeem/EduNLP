@@ -105,7 +105,7 @@ Just add a new entry to the list like this:
 
 ### Add news
 
-News are stored as `.yml` file under [_data/news.yml](_data/news.yml).
+News are stored as `.yml` file under [_data/thesis.yml](_data/thesis.yml).
 
 An entry looks like the following:
 

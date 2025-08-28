@@ -1,0 +1,23 @@
+---
+layout: member
+category: staff
+title: Ekaterina Kochmar
+image: ek.png
+role: Assistant Professor NLP
+permalink: 'team/ekaterina-kochmar'
+social:
+    twitter: https://twitter.com/
+    linkedin: https://www.linkedin.com/
+    google-scholar: https://scholar.google.com/citations?user=e2HTYnkAAAAJ&hl=en/
+    github: https://github.com/
+    website:
+    orcid: https://orcid.org/
+    research-gate: https://www.researchgate.net/
+education:
+ - Ph.D. in natural language processing from University of Cambridge, England
+ - Master’s in advanced computer science from University of Cambridge, England
+ - Master’s in computational linguistics from University of Tuebingen, Germany
+ - Diploma in mathematical and applied linguistics from St. Petersburg State University, Russia
+---
+
+Professor Kochmar's research has spanned the areas of author profiling, models of computational semantics, readability assessment, language complexity, text simplification, summarization, language testing and assessment, and error detection and correction. She is particularly interested in applications of machine learning and AI techniques to the educational domain, including models of second language learning, and assessment and dialogue-based intelligent tutoring systems.

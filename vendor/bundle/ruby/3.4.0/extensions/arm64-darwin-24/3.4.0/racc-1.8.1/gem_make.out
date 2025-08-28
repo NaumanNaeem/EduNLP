@@ -1,0 +1,20 @@
+current directory: /Users/numaan.naeem/Research/RE/Website/EduNLP/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/numaan.naeem/Research/RE/Website/EduNLP/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250828-93131-5qf3w9 sitelibdir\=./.gem.20250828-93131-5qf3w9 clean
+
+current directory: /Users/numaan.naeem/Research/RE/Website/EduNLP/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250828-93131-5qf3w9 sitelibdir\=./.gem.20250828-93131-5qf3w9
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Users/numaan.naeem/Research/RE/Website/EduNLP/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250828-93131-5qf3w9 sitelibdir\=./.gem.20250828-93131-5qf3w9 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250828-93131-5qf3w9/racc
+
+current directory: /Users/numaan.naeem/Research/RE/Website/EduNLP/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250828-93131-5qf3w9 sitelibdir\=./.gem.20250828-93131-5qf3w9 clean
