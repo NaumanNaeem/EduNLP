@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Reading Group"
 layout: default
 excerpt: "RT2 Lab -- Research"
 sitemap: false
