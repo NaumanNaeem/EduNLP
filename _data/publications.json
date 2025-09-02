@@ -1,40 +1,39 @@
 [
 	{
-		"id": "https://aclanthology.org/2025.naacl-long.57/",
-		"type": "acl-anthology",
+		"id": "10.18653/v1/2025.naacl-long.57",
+		"type": "paper-conference",
 		"title": "Unifying AI Tutor Evaluation: An Evaluation Taxonomy for Pedagogical Ability Assessment of LLM-Powered AI Tutors",
-		"container-title": "Evaluation Taxonomy for Pedagogical Ability",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "In this paper, we investigate whether current state-of-the-art large language models (LLMs) are effective as AI tutors and whether they demonstrate pedagogical abilities necessary for good AI tutoring in educational dialogues. Previous efforts towards evaluation have beenlimited to subjective protocols and benchmarks. To bridge this gap, we propose a unified evaluation taxonomy with eight pedagogical dimensions based on key learning sciences principles, which is designed to assess the pedagogical value of LLM-powered AI tutor responses grounded in student mistakes or confusions in the mathematical domain. We release MRBench – a new evaluation benchmark containing 192 conversations and 1,596 responses from seven state-of-the-art LLM-based and human tutors, providing gold annotations for eight pedagogical dimensions. We assess reliability of the popular Prometheus2 and Llama-3.1-8B LLMs as evaluators and analyze each tutor’s pedagogical abilities, highlighting which LLMs are good tutors and which ones are more suitable as question-answering systems. We believe that the presented taxonomy, benchmark, and human-annotated labels will streamline the evaluation process and help track the progress in AI tutors’ development.",
+		"container-title": "Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2025)",
+		"page": "1234–1251",
+		"abstract": "We investigate whether current state-of-the-art large language models demonstrate pedagogical abilities necessary for AI tutoring, propose an eight-dimension taxonomy, and release MRBench…",
 		"DOI": "10.18653/v1/2025.naacl-long.57",
+		"URL": "https://aclanthology.org/2025.naacl-long.57/",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Maurya",
+				"given": "Kaushal Kumar"
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Srivatsa",
+				"given": "Kv Aditya"
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
+				"family": "Petukhova",
+				"given": "Kseniia"
 			},
 			{
-				"family": "Walter",
-				"given": "T."
+				"family": "Kochmar",
+				"given": "Ekaterina"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					2025,
+					4
 				]
 			]
-		}
+		},
+		"citation": "@inproceedings{maurya-etal-2025-unifying, title = {Unifying AI Tutor Evaluation: An Evaluation Taxonomy for Pedagogical Ability Assessment of LLM-Powered AI Tutors}, author = {Maurya, Kaushal Kumar and Srivatsa, Kv Aditya and Petukhova, Kseniia and Kochmar, Ekaterina}, booktitle = {Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, month = {apr}, year = {2025}, address = {Albuquerque, New Mexico}, publisher = {Association for Computational Linguistics}, url = {https://aclanthology.org/2025.naacl-long.57/}, doi = {10.18653/v1/2025.naacl-long.57}, pages = {1234--1251}, isbn = {979-8-89176-189-6} }"
 	}
 ]
