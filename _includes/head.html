@@ -9,12 +9,13 @@
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  {# ---- CSS (relative to baseurl) ---- #}
+  <!-- Stylesheet (built from assets/css/main.scss) -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
-  {# ---- Canonical uses absolute_url (url + baseurl) ---- #}
+  <!-- Canonical -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+  <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
   <script src="https://kit.fontawesome.com/a24320d871.js" crossorigin="anonymous"></script>
