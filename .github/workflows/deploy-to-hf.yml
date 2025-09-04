@@ -11,22 +11,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Install Ruby. (3.3 has newer RubyGems)
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
-          bundler: default
-          bundler-cache: true
+          ruby-version: '3.3'
+          bundler-cache: false   # we'll control bundler ourselves
 
-      - name: Install bundle
+      # Make RubyGems new enough, then install Bundler 2.7.1 explicitly
+      - name: Upgrade RubyGems & install Bundler 2.7.1
         run: |
-          bundle config set path 'vendor/bundle'
-          bundle install
+          gem update --system 3.5.16
+          gem --version
+          gem install bundler -v 2.7.1
+          bundler -v
+
+      - name: Install gems with Bundler 2.7.1
+        run: |
+          bundle _2.7.1_ config set path 'vendor/bundle'
+          bundle _2.7.1_ install --jobs 4
 
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: bundle exec jekyll build --trace
+        run: bundle _2.7.1_ exec jekyll build --trace
 
+      # Python for huggingface_hub
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
