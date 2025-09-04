@@ -1109,7 +1109,7 @@ const struct message requests[] =
 #define LINK_REQUEST 40
 , {.name = "link request"
   ,.type= HTTP_REQUEST
-  ,.raw= "LINK /images/my_dog.jpg HTTP/1.1\r\n"
+  ,.raw= "LINK /assets/images/my_dog.jpg HTTP/1.1\r\n"
          "Host: example.com\r\n"
          "Link: <http://example.com/profiles/joe>; rel=\"tag\"\r\n"
          "Link: <http://example.com/profiles/sally>; rel=\"tag\"\r\n"
@@ -1119,8 +1119,8 @@ const struct message requests[] =
   ,.http_major= 1
   ,.http_minor= 1
   ,.method= HTTP_LINK
-  ,.request_path= "/images/my_dog.jpg"
-  ,.request_url= "/images/my_dog.jpg"
+  ,.request_path= "/assets/images/my_dog.jpg"
+  ,.request_url= "/assets/images/my_dog.jpg"
   ,.query_string= ""
   ,.fragment= ""
   ,.num_headers= 3
@@ -1134,7 +1134,7 @@ const struct message requests[] =
 #define UNLINK_REQUEST 41
 , {.name = "unlink request"
   ,.type= HTTP_REQUEST
-  ,.raw= "UNLINK /images/my_dog.jpg HTTP/1.1\r\n"
+  ,.raw= "UNLINK /assets/images/my_dog.jpg HTTP/1.1\r\n"
          "Host: example.com\r\n"
          "Link: <http://example.com/profiles/sally>; rel=\"tag\"\r\n"
          "\r\n"
@@ -1143,8 +1143,8 @@ const struct message requests[] =
   ,.http_major= 1
   ,.http_minor= 1
   ,.method= HTTP_UNLINK
-  ,.request_path= "/images/my_dog.jpg"
-  ,.request_url= "/images/my_dog.jpg"
+  ,.request_path= "/assets/images/my_dog.jpg"
+  ,.request_url= "/assets/images/my_dog.jpg"
   ,.query_string= ""
   ,.fragment= ""
   ,.num_headers= 2

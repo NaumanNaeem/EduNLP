@@ -1,4 +1,4 @@
-<div><img src="https://nokogiri.org/images/nokogiri-serif-black.png" align="right"/></div>
+<div><img src="https://nokogiri.org/assets/images/nokogiri-serif-black.png" align="right"/></div>
 
 # Nokogiri
 

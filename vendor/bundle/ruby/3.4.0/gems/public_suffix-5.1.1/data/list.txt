@@ -933,7 +933,7 @@ org.do
 sld.do
 web.do
 
-// dz : http://www.nic.dz/images/pdf_nic/charte.pdf
+// dz : http://www.nic.dz/assets/images/pdf_nic/charte.pdf
 dz
 art.dz
 asso.dz

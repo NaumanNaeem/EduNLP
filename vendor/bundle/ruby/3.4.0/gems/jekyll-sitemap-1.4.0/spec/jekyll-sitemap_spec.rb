@@ -84,7 +84,7 @@ describe(Jekyll::JekyllSitemap) do
   end
 
   it "does not include assets or any static files that aren't .html" do
-    expect(contents).not_to match %r!<loc>http://example\.org/images/hubot\.png</loc>!
+    expect(contents).not_to match %r!<loc>http://example\.org/assets/images/hubot\.png</loc>!
     expect(contents).not_to match %r!<loc>http://example\.org/feeds/atom\.xml</loc>!
   end
 

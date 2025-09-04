@@ -1,6 +1,6 @@
-Simple: ![alt text](/images/other.png)
+Simple: ![alt text](/assets/images/other.png)
 
-Simple with title: ![alt text](/images/other.png "title")
+Simple with title: ![alt text](/assets/images/other.png "title")
 
 Empty img link: ![alt text]()
 

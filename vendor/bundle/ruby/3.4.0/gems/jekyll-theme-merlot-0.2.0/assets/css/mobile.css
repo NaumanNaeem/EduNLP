@@ -5,9 +5,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-regular-webfont.eot');
   src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-regular-webfont.woff') format('woff'),
-       url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    url('../fonts/opensans-regular-webfont.woff') format('woff'),
+    url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,9 +16,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-italic-webfont.eot');
   src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-italic-webfont.woff') format('woff'),
-       url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
+    url('../fonts/opensans-italic-webfont.woff') format('woff'),
+    url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -27,9 +27,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-bold-webfont.eot');
   src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-bold-webfont.woff') format('woff'),
-       url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-bold-webfont.svg#OpenSansBold') format('svg');
+    url('../fonts/opensans-bold-webfont.woff') format('woff'),
+    url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bold-webfont.svg#OpenSansBold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -38,9 +38,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-bolditalic-webfont.eot');
   src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
-       url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-bolditalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bolditalic-webfont.svg#OpenSansBoldItalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
@@ -49,9 +49,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-extrabold-webfont.eot');
   src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
-       url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
+    url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+    url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
   font-weight: bolder;
   font-style: normal;
 }
@@ -62,19 +62,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -82,31 +150,52 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-header, footer, section {
+header,
+footer,
+section {
   display: block;
   position: relative;
 }
@@ -142,12 +231,13 @@ header span.ribbon-inner {
   z-index: 1;
 }
 
-header span.left-tail, header span.right-tail {
+header span.left-tail,
+header span.right-tail {
   position: relative;
   display: block;
   width: 19px;
   height: 10px;
-  background: transparent url(../images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
   position: absolute;
   bottom: -10px;
   z-index: 0;
@@ -171,7 +261,7 @@ header h1 {
   text-transform: uppercase;
   color: #ece4d8;
   text-align: center;
-  line-height:1;  
+  line-height: 1;
   padding: 14px 20px 0;
 }
 
@@ -192,7 +282,7 @@ section#downloads {
   padding-bottom: 150px;
   margin: 51px auto -250px;
   z-index: 1;
-  background: transparent url(../images/shield.png) center 0 no-repeat;
+  background: transparent url(../assets/images/shield.png) center 0 no-repeat;
 }
 
 section#downloads a {
@@ -200,7 +290,7 @@ section#downloads a {
 }
 
 span.banner-fix {
-  background: transparent url(../images/shield-fallback.png) center top no-repeat;
+  background: transparent url(../assets/images/shield-fallback.png) center top no-repeat;
   display: block;
   height: 31px;
   position: absolute;
@@ -212,7 +302,7 @@ span.banner-fix {
 section#main_content {
   z-index: 2;
   padding: 20px 40px 0;
-  min-height:185px;
+  min-height: 185px;
 }
 
 /* footer */
@@ -221,7 +311,7 @@ footer {
   background: none;
   padding-top: 104px;
   margin: -94px auto 40px;
-  max-width:640px;
+  max-width: 640px;
   text-align: center;
 }
 
@@ -278,12 +368,13 @@ footer span.ribbon-inner a:hover {
   color: #7eb0d2;
 }
 
-footer span.left-tail, footer span.right-tail {
+footer span.left-tail,
+footer span.right-tail {
   position: relative;
   display: block;
   width: 23px;
   height: 126px;
-  background: transparent url(../images/small-ribbon-tail-sprite-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/small-ribbon-tail-sprite-2x.png) 0 0 no-repeat;
   position: absolute;
   top: -126px;
   z-index: 0;
@@ -300,22 +391,24 @@ footer span.right-tail {
 }
 
 footer span.octocat {
-  background: transparent url(../images/octocat-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/octocat-2x.png) 0 0 no-repeat;
   display: block;
   width: 60px;
   height: 60px;
-  margin: 20px auto 0;}
+  margin: 20px auto 0;
+}
 
 /* content */
 
 body {
   background: #ece4d8;
-  font: normal normal 30px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  font: normal normal 30px/1.5 Georgia, Palatino, ” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: #417090;
 }
 
@@ -327,7 +420,12 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
@@ -357,7 +455,7 @@ ul {
 
 ul li {
   padding-left: 20px;
-  background: transparent url(../images/chevron-2x.png) left 15px no-repeat;
+  background: transparent url(../assets/images/chevron-2x.png) left 15px no-repeat;
 }
 
 blockquote {
@@ -365,7 +463,7 @@ blockquote {
   margin: 20px 0;
   color: #8b786f;
   padding-left: 1.35em;
-  background: transparent url('../images/blockquote-gfx-2x.png') 0 8px no-repeat;
+  background: transparent url('../assets/images/blockquote-gfx-2x.png') 0 8px no-repeat;
 }
 
 img {
@@ -380,7 +478,7 @@ hr {
   border: none;
   outline: none;
   height: 42px;
-  background: transparent url('../images/hr-2x.jpg') center center repeat-x;
+  background: transparent url('../assets/images/hr-2x.jpg') center center repeat-x;
   margin: 0 0 20px;
 }
 
@@ -430,7 +528,8 @@ td {
   border-width: 0 4px 4px 0;
 }
 
-td:last-child, th:last-child {
+td:last-child,
+th:last-child {
   border-right: none;
 }
 
@@ -457,12 +556,12 @@ dd p:first-child {
 
 /* Content based headers */
 
-#main_content > .header-level-1:first-child,
-#main_content > .header-level-2:first-child,
-#main_content > .header-level-3:first-child,
-#main_content > .header-level-4:first-child,
-#main_content > .header-level-5:first-child,
-#main_content > .header-level-6:first-child {
+#main_content>.header-level-1:first-child,
+#main_content>.header-level-2:first-child,
+#main_content>.header-level-3:first-child,
+#main_content>.header-level-4:first-child,
+#main_content>.header-level-5:first-child,
+#main_content>.header-level-6:first-child {
   margin-top: 0;
 }
 

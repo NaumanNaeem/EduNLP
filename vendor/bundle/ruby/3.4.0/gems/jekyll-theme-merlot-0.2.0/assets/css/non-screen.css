@@ -8,7 +8,7 @@ div.shell {
 
 
 header {
-  max-width:640px;
+  max-width: 640px;
   margin: 0;
   top: 51px;
 }
@@ -18,10 +18,11 @@ header span.ribbon-inner {
   padding: 6px;
 }
 
-header span.left-tail, header span.right-tail {
+header span.left-tail,
+header span.right-tail {
   width: 19px;
   height: 10px;
-  background: transparent url(../images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
   bottom: -10px;
 }
 
@@ -42,7 +43,7 @@ section#downloads {
   height: 171px;
   width: 602px;
   margin: 51px auto -250px;
-  background: transparent url(../images/shield.png) center 0 no-repeat;
+  background: transparent url(../assets/images/shield.png) center 0 no-repeat;
 }
 
 section#downloads a {
@@ -50,7 +51,7 @@ section#downloads a {
 }
 
 span.banner-fix {
-  background: transparent url(../images/shield-fallback.png) center top no-repeat;
+  background: transparent url(../assets/images/shield-fallback.png) center top no-repeat;
   height: 31px;
   width: 640px;
   top: 20px;
@@ -61,14 +62,15 @@ section#main_content {
 }
 
 footer {
-  max-width:640px;
+  max-width: 640px;
   background: none;
 }
 
-footer span.left-tail, footer span.right-tail {
+footer span.left-tail,
+footer span.right-tail {
   width: 23px;
   height: 126px;
-  background: transparent url(../images/small-ribbon-tail-sprite-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/small-ribbon-tail-sprite-2x.png) 0 0 no-repeat;
   top: -126px;
 }
 
@@ -105,19 +107,19 @@ footer span.ribbon-inner a {
 }
 
 footer span.octocat {
-  background: transparent url(../images/octocat-2x.png) 0 0 no-repeat;
+  background: transparent url(../assets/images/octocat-2x.png) 0 0 no-repeat;
   width: 60px;
   height: 60px;
   margin: 20px auto 0;
 }
 
 body {
-  font: normal normal 30px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  font: normal normal 30px/1.5 Georgia, Palatino, ” Palatino Linotype”, Times, “Times New Roman”, serif;
 }
 
 ul li {
   padding-left: 20px;
-  background: transparent url(../images/chevron-2x.png) left 15px no-repeat;
+  background: transparent url(../assets/images/chevron-2x.png) left 15px no-repeat;
 }
 
 table {
@@ -145,10 +147,10 @@ img {
 }
 
 blockquote {
-  background: transparent url('../images/blockquote-gfx-2x.png') 0 8px no-repeat;
+  background: transparent url('../assets/images/blockquote-gfx-2x.png') 0 8px no-repeat;
 }
 
 hr {
   height: 42px;
-  background: transparent url('../images/hr-2x.jpg') center center repeat-x;
+  background: transparent url('../assets/images/hr-2x.jpg') center center repeat-x;
 }

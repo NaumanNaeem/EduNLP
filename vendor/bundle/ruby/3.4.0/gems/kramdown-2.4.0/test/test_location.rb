@@ -93,7 +93,7 @@ describe 'location' do
 
       This is [a link](http://rubyforge.org){:.line-3} to a page.
 
-      Here comes a ![smiley](../images/smiley.png){:.line-5}
+      Here comes a ![smiley](../assets/images/smiley.png){:.line-5}
     ),
     'list' => %(
       * {:.line-1} list item
