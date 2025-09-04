@@ -6,9 +6,20 @@
   </title>
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url}}">
+  <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url}}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico">
+  <script src="https://kit.fontawesome.com/a24320d871.js" crossorigin="anonymous"></script>-->
+  <!-- CSS: use relative_url so it works on subpaths (HF Spaces) -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Canonical: absolute_url to emit full URL, but safe if url/baseurl are empty -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+
+  <!-- Icons (ok to keep CDN) -->
   <script src="https://kit.fontawesome.com/a24320d871.js" crossorigin="anonymous"></script>
 
   {% if jekyll.environment == 'production' %}
