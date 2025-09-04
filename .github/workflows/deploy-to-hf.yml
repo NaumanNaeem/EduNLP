@@ -11,16 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build site in Docker (jekyll/builder)
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler: default
+          bundler-cache: true
+
+      - name: Install bundle
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install
+
+      - name: Build site
         env:
           JEKYLL_ENV: production
-        run: |
-          docker run --rm \
-            -e JEKYLL_ENV=production \
-            -v "$PWD":/srv/jekyll \
-            -v "$PWD/vendor/bundle":/usr/local/bundle \
-            jekyll/builder:4.2.2 \
-            /bin/bash -lc "bundle config set path 'vendor/bundle' && bundle install && jekyll build --trace"
+        run: bundle exec jekyll build --trace
 
       - uses: actions/setup-python@v5
         with:
