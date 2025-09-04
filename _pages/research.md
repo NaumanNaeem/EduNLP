@@ -7,7 +7,7 @@ permalink: /research/
 ---
 
 <h1>EduNLP Lab Reading Group</h1>
-<p><strong>Time:</strong> Every Tuesday 12:00–13:00 Meeting Room</p>
+<p><strong>Time:</strong> Every Monday 12:00–13:00 Meeting Room</p>
 
 <h2>Reading List 2025</h2>
 
@@ -36,6 +36,48 @@ permalink: /research/
         <td>16 Sep, 2025</td>
         <td>Bob</td>
         <td><a href="/slides/2025-09-16-bob.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
+      </tr>
+      <tr>
+        <td>Example Paper Title 3</td>
+        <td><a href="https://example.com/slides3" target="_blank" rel="noopener">PDF</a></td>
+        <td>24 Sep, 2025</td>
+        <td>Carol</td>
+        <td><a href="/slides/2025-09-24-carol.pdf" target="_blank" rel="noopener">Slides</a></td>
       </tr>
       <tr>
         <td>Example Paper Title 3</td>
