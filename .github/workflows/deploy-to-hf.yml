@@ -37,27 +37,6 @@ jobs:
 
       - name: Deploy _site to Hugging Face Space
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}   # your hf_... token (already added)
-          SPACE_ID: ${{ secrets.SPACE_ID }}   # e.g. username/space-name (already added)
-        run: |
-          python - <<'PY'
-import os
-from huggingface_hub import HfApi, upload_folder
-
-token = os.environ["HF_TOKEN"]
-space_id = os.environ["SPACE_ID"]
-
-api = HfApi(token=token)
-# Make sure the Space exists and is Static
-api.create_repo(repo_id=space_id, repo_type="space", exist_ok=True, space_sdk="static")
-
-# Upload the compiled site (the _site folder) to the root of the Space
-upload_folder(
-    repo_id=space_id,
-    repo_type="space",
-    folder_path="_site",
-    path_in_repo="",
-    token=token,
-    commit_message="CI: Deploy Jekyll _site"
-)
-PY
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SPACE_ID: ${{ secrets.SPACE_ID }}
+        run: python .github/scripts/deploy_to_hf.py
