@@ -11,9 +11,10 @@ email: ekaterina.kochmar@mbzuai.ac.ae
 description: > # this means to ignore newlines until "baseurl:"
   Research on educational NLP, assessment, and culturally-aware AI at MBZUAI.
 
-  
-url: "https://huggingface.co"
-baseurl: "/spaces/numaan-naeem/edunlp-site"   # <= change to your exact Space path
+
+# _config.yml  (used by GitHub Action / HF Space)
+url: ""
+baseurl: ""   # <-- important
 
 include:
   - .htaccess
